@@ -1,0 +1,119 @@
+:root{
+  --test: green;
+  --b-color: #ebe4e1;
+  --b-temp-color: #eaeaea;
+  --light-nav: #ead8d6;
+  --nav: #df4b4b;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d3c3dc;
+  font-family: sans-serif;
+}
+
+/* dashboard section */
+.dashboard{
+  font-size: 2rem;
+  padding: 25px 30px 25px 30px;
+  background-color: var(--nav);
+  color: #fff;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  justify-content: space-between;
+}
+.dashboardText h2{
+  margin-bottom: 10px;
+}
+.dashboardImg{
+  /* border: 5px solid white; */
+  color: #fff;
+  margin: 20px 20px 0 0;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* successful message */
+.dropDownMsg{
+  font-size: 2rem;
+  margin: 20px 25px 0;
+  border-radius: 25px;
+  background-color: white;
+  padding: 30px 0 30px 40px;
+}
+.flexDropDown{
+  display: flex;
+  align-items: center;
+}
+.flexDropDown .dropDownMsgIcon i{
+  margin-right: 15px;
+  color: var(--test)
+}
+
+
+/* top cantainer */
+.gif{
+  text-align: center;
+}
+.gif img{
+  height: 500px;
+  width: auto;
+}
+.topContainer{
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 20px;
+  padding: 30px 30px 50px 30px;
+  border-radius: 30px;
+  background-color: white;
+}
+.topContainer .topContainerHeading{
+  margin: 30px 0 30px;
+}
+.topContainer .topContainerPara{
+  padding: 0 100px;
+}
+
+.note{
+  margin: 0 20px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 30px;
+}
+.note p{
+  margin-bottom: 15px;
+}
+
+.note a{
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: var(--nav);
+}
+.note i{
+  margin-left: 10px;
+}
+.waitPageBtn{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn1{
+  font-size: 3rem;
+  background-color: white;
+  padding: 20px 18%;
+  border-radius: 30px;
+}
+.btn2{
+  background-color: white;
+  font-size: 3rem;
+  padding: 20px 18%;
+  border-radius: 30px;
+}
